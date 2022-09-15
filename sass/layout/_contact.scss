@@ -1,0 +1,112 @@
+.contact {
+	background-color: $fourth-background-color;
+	color: $second-text-color;
+
+	@include tablet {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.contact__picture {
+	margin: 0 auto;
+
+	@include tablet {
+		width: 384px;
+	}
+
+	@include desktop {
+		width: 680px;
+	}
+}
+
+.contact__container {
+	padding-top: 26px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+
+	@include tablet {
+		width: 384px;
+		margin: 0;
+	}
+
+	@include desktop {
+		width: 680px;
+		padding-top: 78px;
+		padding-bottom: 82px;
+	}
+}
+
+.contact__text {
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 1.26;
+
+	margin-bottom: 34px;
+
+	@include tablet {
+		font-size: 38px;
+		line-height: 1.26;
+	}
+}
+
+.form__input {
+	width: 100%;
+	height: 40px;
+
+	padding: 5px;
+	background-color: #ffffff;
+	border: none;
+
+	&::placeholder {
+		font-size: 16px;
+		line-height: 1.44;
+
+		color: $placeholder-text-color;
+
+		@include tablet {
+			font-size: 18px;
+			line-height: 1.28;
+		}
+
+		@include desktop {
+			font-size: 18px;
+			line-height: 1.56;
+		}
+	}
+}
+
+.form__input:nth-child(1) {
+	margin-bottom: 36px;
+}
+.form__input:nth-child(2) {
+	margin-bottom: 53px;
+
+	@include desktop {
+		margin-bottom: 60px;
+	}
+}
+
+.form__button {
+	width: 100%;
+	height: 42px;
+	font-size: 16px;
+	line-height: 1.38;
+	color: $primary-text-color;
+	background-color: $second-background-color;
+}
+
+.contact__thumb {
+	@media screen and (max-width: 767.5px) {
+		max-width: 320px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	@include tablet {
+		width: 384px;
+	}
+	@include desktop {
+		width: 680px;
+	}
+}

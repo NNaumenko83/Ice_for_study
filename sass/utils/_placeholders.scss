@@ -1,0 +1,10 @@
+%main-title {
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 1.26;
+
+	@include tablet {
+		font-size: 38px;
+		line-height: 1.26;
+	}
+}

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container header__container">
+				<a href="" class="logo-link link">
+					<span class="logo__first-word">Finance</span><span class="logo__second-word">Ledger</span></a
+				>
+				<nav class="navigation">
+					<ul class="navigation-list list">
+						<li class="navigation-list__item"><a href="" class="navigation-list__link link">Home</a></li>
+						<li class="navigation-list__item"><a href="#about" class="navigation-list__link link">About</a></li>
+						<li class="navigation-list__item"><a href="" class="navigation-list__link link">Cases</a></li>
+						<li class="navigation-list__item"><a href="" class="navigation-list__link link">Blog</a></li>
+						<li class="navigation-list__item"><a href="" class="navigation-list__link link">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container hero__container">
+					<h1 class="hero__title title">The Sky Is The Limit</h1>
+					<p class="hero__text">We provide world class financial assistance</p>
+					<button type="button" class="hero__button button">Read More</button>
+				</div>
+			</section>
+
+			<section class="about" id="about">
+				<div class="container about__container">
+					<ul class="about__list list">
+						<li class="about__item">
+							<div class="about__icon-box">
+								<svg class="about__icon icon" width="34" height="34">
+									<use href="./images/symbol-defs.svg#icon-fa-solid_university"></use>
+								</svg>
+							</div>
+							<h3 class="about__title title">Investmant Banking</h3>
+							<p class="about__text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+							</p>
+						</li>
+						<li class="about__item">
+							<div class="about__icon-box">
+								<svg class="about__icon icon" width="34" height="34">
+									<use href="./images/symbol-defs.svg#icon-Group"></use>
+								</svg>
+							</div>
+							<h3 class="about__title title">Portfolio Manager</h3>
+							<p class="about__text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+							</p>
+						</li>
+						<li class="about__item">
+							<div class="about__icon-box">
+								<svg class="about__icon icon" width="34" height="34">
+									<use href="./images/symbol-defs.svg#icon-fa-solid_pencil-alt"></use>
+								</svg>
+							</div>
+							<h3 class="about__title title">Tax & Custudio</h3>
+							<p class="about__text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="features">
+				<div class="features__thumb">
+					<picture>
+						<source
+							srcset="./images/Desktop/Land_command-min.jpg, ./images/Desktop/Land_command@2x-min.jpg 2x"
+							media="(min-width: 1360px)"
+						/>
+
+						<source
+							srcset="./images/Tablet/Land_command-min.jpg, ./images/Tablet/Land_command@2x-min.jpg 2x"
+							media="(min-width: 768px)"
+						/>
+
+						<source
+							srcset="./images/Mobile/Land_command-min.jpg, ./images/Mobile/Land_command@2x-min.jpg 2x"
+							media="(max-width: 767.5px)"
+						/>
+
+						<img
+							src="./images/Mobile/Land_command-min.jpg"
+							alt="Team photo"
+							width="680"
+							height="460"
+							class="features__team-photo"
+						/>
+					</picture>
+				</div>
+				<div class="container features__container">
+					<p class="features__pre-text">What you are looking for</p>
+					<h2 class="features__title">We provide bespoke solutions</h2>
+					<p class="features__after-text">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
+						asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+						iste maiores deleniti?
+					</p>
+					<button type="button" class="features__button button">Read More</button>
+				</div>
+			</section>
+
+			<section class="cases">
+				<div class="container cases__container">
+					<p class="cases__pre-text">This is what we do</p>
+					<h2 class="cases__title title">Business Cases</h2>
+					<p class="cases__after-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+					</p>
+					<ul class="cases-list list">
+						<li class="cases-list__item">
+							<picture>
+								<source
+									srcset="./images/Desktop/Cases-1-min.jpg, ./images/Desktop/Cases-1@2x-min.jpg 2x"
+									media="(min-width:1360px)"
+								/>
+
+								<source
+									srcset="./images/Tablet/Cases-1-min.jpg, ./images/Tablet/Cases-1@2x-min.jpg 2x"
+									media="(min-width:768px)"
+								/>
+
+								<source
+									srcset="./images/Mobile/Cases-1-min.jpg, ./images/Mobile/Cases-1@2x-min.jpg 2x"
+									media="(max-width:767.5px)"
+								/>
+
+								<img src="./images/Mobile/Cases-1-min.jpg" alt="Team photo" width="320" height="214" />
+							</picture>
+						</li>
+						<li class="cases-list__item">
+							<picture
+								><source
+									srcset="./images/Desktop/Cases-2-min.jpg, ./images/Desktop/Cases-2@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+
+								<source
+									srcset="./images/Tablet/Cases-2-min.jpg, ./images/Tablet/Cases-2@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+
+								<source
+									srcset="./images/Mobile/Cases-2-min.jpg, ./images/Mobile/Cases-2@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+
+								<img src="./images/Mobile/Cases-2-min.jpg" alt="Team photo" width="320" height="214"
+							/></picture>
+						</li>
+						<li class="cases-list__item">
+							<picture>
+								<source
+									srcset="./images/Desktop/Cases-3-min.jpg, ./images/Desktop/Cases-3@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+
+								<source
+									srcset="./images/Tablet/Cases-3-min.jpg, ./images/Tablet/Cases-3@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+
+								<source
+									srcset="./images/Mobile/Cases-3-min.jpg, ./images/Mobile/Cases-3@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+
+								<img src="./images/Mobile/Cases-3-min.jpg" alt="Team photo" width="320" height="214"
+							/></picture>
+						</li>
+						<li class="cases-list__item">
+							<picture>
+								<source
+									srcset="./images/Desktop/Cases-4-min.jpg, ./images/Desktop/Cases-4@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+
+								<source
+									srcset="./images/Tablet/Cases-4-min.jpg, ./images/Tablet/Cases-4@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+
+								<source
+									srcset="./images/Mobile/Cases-4-min.jpg, ./images/Mobile/Cases-4@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+
+								<img src="./images/Mobile/Cases-4-min.jpg" alt="Team photo" width="320" height="214"
+							/></picture>
+						</li>
+						<li class="cases-list__item">
+							<picture
+								><source
+									srcset="./images/Desktop/Cases-5-min.jpg, ./images/Desktop/Cases-5@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+
+								<source
+									srcset="./images/Tablet/Cases-5-min.jpg, ./images/Tablet/Cases-5@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+
+								<source
+									srcset="./images/Mobile/Cases-5-min.jpg, ./images/Mobile/Cases-5@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+
+								<img src="./images/Mobile/Cases-5-min.jpg" alt="Team photo" width="320" height="214"
+							/></picture>
+						</li>
+						<li class="cases-list__item">
+							<picture>
+								<source
+									srcset="./images/Desktop/Cases-6-min.jpg, ./images/Desktop/Cases-6@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+
+								<source
+									srcset="./images/Tablet/Cases-6-min.jpg, ./images/Tablet/Cases-6@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+
+								<source
+									srcset="./images/Mobile/Cases-6-min.jpg, ./images/Mobile/Cases-6@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+
+								<img src="./images/Mobile/Cases-6-min.jpg" alt="Team photo" width="320" height="214"
+							/></picture>
+						</li>
+						<li class="cases-list__item">
+							<picture
+								><source
+									srcset="./images/Desktop/Cases-7-min.jpg, ./images/Desktop/Cases-7@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+
+								<source
+									srcset="./images/Tablet/Cases-7-min.jpg, ./images/Tablet/Cases-7@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+
+								<source
+									srcset="./images/Mobile/Cases-7-min.jpg, ./images/Mobile/Cases-7@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+
+								<img src="./images/Mobile/Cases-7-min.jpg" alt="Team photo" width="320" height="214"
+							/></picture>
+						</li>
+						<li class="cases-list__item">
+							<picture
+								><source
+									srcset="./images/Desktop/Cases-8-min.jpg, ./images/Desktop/Cases-8@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+
+								<source
+									srcset="./images/Tablet/Cases-8-min.jpg, ./images/Tablet/Cases-8@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+
+								<source
+									srcset="./images/Mobile/Cases-8-min.jpg, ./images/Mobile/Cases-8@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+
+								<img src="./images/Mobile/Cases-8-min.jpg" alt="Team photo" width="320" height="214"
+							/></picture>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="blog">
+				<div class="blog__thumb">
+					<picture
+						><source
+							srcset="./images/Desktop/Blog-min.jpg, ./images/Desktop/Blog@2x-min.jpg 2x"
+							media="(min-width:1360px)" />
+						<source
+							srcset="./images/Tablet/Blog-min.jpg, ./images/Tablet/Blog@2x-min.jpg 2x"
+							media="(min-width:768px)" />
+						<source
+							srcset="./images/Mobile/Blog-min.jpg, ./images/Mobile/Blog@2x-min.jpg 2x"
+							media="(max-width:767.5px)" />
+
+						<img src="./images/Mobile/Blog-min.jpg" alt="Team photo" width="680" height="517" class="blog__picture"
+					/></picture>
+				</div>
+
+				<div class="container blog__container">
+					<p class="blog__pre-text">April 16 2020</p>
+					<h2 class="blog__title title">Blog Post One</h2>
+					<p class="blog__after-text">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
+						asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+						iste maiores deleniti?
+					</p>
+					<a href="" class="blog__link link">Read Our Blog</a>
+				</div>
+			</section>
+
+			<section class="team">
+				<div class="container team__container">
+					<p class="team__pre-text">Who we are</p>
+					<h2 class="team__title title">Our Professional Team</h2>
+					<p class="team__after-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+					<ul class="team-list list">
+						<li class="team-list__item">
+							<picture
+								><source
+									srcset="./images/Desktop/Team-1-min.jpg, ./images/Mobile/Team-1@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+								<source
+									srcset="./images/Tablet/Team-1-min.jpg, ./images/Mobile/Team-1@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+								<source
+									srcset="./images/Mobile/Team-1-min.jpg, ./images/Mobile/Team-1@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+								<img
+									src="./images/Mobile/Team-1-min.jpg"
+									alt="Team photo"
+									width="420"
+									height="280"
+									class="team__picture"
+							/></picture>
+							<h3 class="team-list__title">John Doe</h3>
+							<p class="team-list__text">President</p>
+							<ul class="soc-links-list list">
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+							</ul>
+						</li>
+						<li class="team-list__item">
+							<picture
+								><source
+									srcset="./images/Tablet/Team-2-min.jpg, ./images/Tablet/Team-2@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+								<source
+									srcset="./images/Tablet/Team-2-min.jpg, ./images/Mobile/Team-2@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+								<source
+									srcset="./images/Mobile/Team-2-min.jpg, ./images/Mobile/Team-2@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+								<img
+									src="./images/Mobile/Team-2-min.jpg"
+									alt="Team photo"
+									width="420"
+									height="280"
+									class="team__picture"
+							/></picture>
+							<h3 class="team-list__title">Jane Doe</h3>
+							<p class="team-list__text">Vice President</p>
+							<ul class="soc-links-list list">
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+							</ul>
+						</li>
+						<li class="team-list__item">
+							<picture
+								><source
+									srcset="./images/Desktop/Team-3-min.jpg, ./images/Mobile/Team-3@2x-min.jpg 2x"
+									media="(min-width:1360px)" />
+								<source
+									srcset="./images/Tablet/Team-3-min.jpg, ./images/Mobile/Team-3@2x-min.jpg 2x"
+									media="(min-width:768px)" />
+								<source
+									srcset="./images/Mobile/Team-3-min.jpg, ./images/Mobile/Team-3@2x-min.jpg 2x"
+									media="(max-width:767.5px)" />
+								<img
+									src="./images/Mobile/Team-3-min.jpg"
+									alt="Team photo"
+									width="420"
+									height="280"
+									class="team__picture"
+							/></picture>
+							<h3 class="team-list__title">Steve Smith</h3>
+							<p class="team-list__text">Marketing Head</p>
+							<ul class="soc-links-list list">
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+								<li class="soc-links-list__item"><a href="" class="soc-links-list__link link"></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="contact">
+				<div class="contact__thumb">
+					<picture
+						><source
+							srcset="./images/Desktop/Contact-min.jpg, ./images/Desktop/Contact@2x-min.jpg 2x"
+							media="(min-width:1360px)" />
+
+						<source
+							srcset="./images/Tablet/Contact-min.jpg, ./images/Tablet/Contact@2x-min.jpg 2x"
+							media="(min-width:768px)" />
+						<source
+							srcset="./images/Mobile/Contact-min.jpg, ./images/Mobile/Contact@2x-min.jpg 2x"
+							media="(max-width:767.5px)" />
+
+						<img
+							src="./images/Mobile/Team-3-min.jpg"
+							alt="Team photo"
+							width="680"
+							height="460"
+							class="contact__picture"
+					/></picture>
+				</div>
+
+				<div class="container contact__container">
+					<p class="contact__text">Request Callback</p>
+					<form class="form">
+						<input type="text" name="name" class="form__input" placeholder="Enter your name" required />
+						<input type="email" name="email" class="form__input" placeholder="Enter email*" required />
+						<button type="submit" class="form__button button">Send</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<ul class="soc-links-list footer__soc-links-list list">
+					<li class="soc-links-list__item">
+						<a href="" class="soc-links-list__link link" rel="noopener nofollow noreferrer"
+							><svg class="soc-link-icon" width="35" height="35">
+								<use href="./images/symbol-defs.svg#icon-facebook"></use></svg
+						></a>
+					</li>
+					<li class="soc-links-list__item">
+						<a href="" class="soc-links-list__link link" rel="noopener nofollow noreferrer"
+							><svg class="soc-link-icon" width="35" height="35">
+								<use href="./images/symbol-defs.svg#icon-Twitter"></use></svg
+						></a>
+					</li>
+					<li class="soc-links-list__item">
+						<a href="" class="soc-links-list__link link" rel="noopener nofollow noreferrer"
+							><svg class="soc-link-icon" width="35" height="35">
+								<use href="./images/symbol-defs.svg#icon-youtube"></use></svg
+						></a>
+					</li>
+					<li class="soc-links-list__item">
+						<a href="" class="soc-links-list__link link" rel="noopener nofollow noreferrer"
+							><svg class="soc-link-icon" width="35" height="35">
+								<use href="./images/symbol-defs.svg#icon-linkedIn"></use></svg
+						></a>
+					</li>
+				</ul>
+				<p class="footer__text">Copyright <span>&#169;</span>2021 - FinanceLedger</p>
+			</div>
+		</footer>
+	</body>
+</html>
